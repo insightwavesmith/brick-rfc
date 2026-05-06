@@ -22,6 +22,29 @@ preserve evidence, and learn from how work actually happened.
 - Storage: evidence, artifacts, logs, and status
 - Wiki: organizational memory candidates
 
+The core constraint is that humans and AI agents can both execute work, but final
+judgment and creative direction often remain human-owned. Brick tries to make
+that boundary explicit instead of hiding it inside chat history.
+
+## Why Existing Tools Feel Insufficient
+
+Project management tools track tasks.
+Chat tools hold conversations.
+GitHub tracks code changes.
+LLMs produce outputs.
+
+But mixed human+AI work creates a missing middle layer:
+
+- Who or what performed each step?
+- Which output was reviewed?
+- Which evidence justified approval?
+- Which decision was human-owned?
+- Which retry or rollback happened, and why?
+- What did the team learn from this Building?
+
+Most tools preserve fragments of this process. Brick tries to keep the work
+process and the work result connected.
+
 ## What It Does
 
 Brick lets a small team run work as Buildings:
@@ -41,6 +64,25 @@ In team use, Brick becomes human orchestration.
 
 The same model can describe a founder working with AI agents, or a small team
 where people and AI agents collaborate on one project.
+
+## What A Building Records
+
+A Building is not only a task. It records the process around the task:
+
+- goal
+- work units
+- human and AI agents
+- review results
+- decisions
+- artifacts
+- evidence
+- failures
+- retries
+- final outcome
+
+The hope is that many Buildings become a useful organizational memory: a graph of
+how the team actually plans, executes, reviews, approves, fails, retries, and
+learns.
 
 ## Why This Might Matter
 
@@ -63,6 +105,12 @@ that shows how successful work actually happened.
 
 Does this feel like a real missing layer for human+AI teams, or just another
 workflow tool?
+
+More specific feedback would be helpful:
+
+1. Does the framing of human-AI work orchestration make sense?
+2. Is "Building" a useful abstraction, or does it feel too heavy?
+3. What would make this clearly different from project management or workflow tools?
 
 ## Example
 
